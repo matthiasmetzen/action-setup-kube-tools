@@ -45,5 +45,5 @@ branding:
   icon: 'terminal'
   color: 'blue'
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: docker
+  image: Dockerfile
